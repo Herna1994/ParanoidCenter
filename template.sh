@@ -4,4 +4,11 @@
 # If possible starting after vendor/pa one, categorize them by alphabetical order of repositories name.
 
 # <RepositoryName>
-repo download -c repository/path gerritCommitNumber/patchset # Short info or commit title.
+# Vendor
+repo download -c AOSPA/android_vendor_pa 5390/7 # Sync whyred dependencies
+
+#FWB
+repo download -c AOSPA/android_frameworks_base 5567/1 # Fix MIUI Cam force close while on DND mode
+
+# Telephony
+repo download -c AOSPA/android_vendor_codeaurora_commonsys_telephony 5306/1 # Fix RIL

@@ -1,0 +1,11 @@
+# Let's add the needed commits for the device.
+# They have to be in order if they are from the same repo, in case they require others to be applied first.
+
+# vendor/pa
+5390 # Sync whyred dependencies
+
+# frameworks/base
+5567 # Fix MIUI Cam force close while on DND mode
+
+# vendor/codeaurora/commonsys/telephony
+5306 # Fix RIL

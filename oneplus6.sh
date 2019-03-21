@@ -7,8 +7,6 @@
 repo download -c vendor/pa 5345/17 #Oneplus6 dependencies
 
 # frameworks/base
-repo download -c frameworks/base 5585/2 #SystemUI: allow devices override audio panel location
-repo download -c frameworks/base 5351/4 # WallpaperManagerService: Fix theme switching
 repo download -c frameworks/base 5583/1 #Revert "SystemUI: Fix an issue where jumping to black after screen turned on"
 
 # device/qcom/common

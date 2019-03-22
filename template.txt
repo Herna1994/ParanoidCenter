@@ -4,4 +4,4 @@
 # If possible starting after vendor/pa one, categorize them by alphabetical order of repositories name.
 
 # <RepositoryName>
-repo download -c repository/path gerritCommitNumber/patchset # Short info or commit title.
+commitNumber # Short info or commit title.

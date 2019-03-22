@@ -2,4 +2,4 @@
 
 ## Setting up your script ##
 
-Copy and paste the template.sh and adapt it to your device.
+Copy and paste the template.txt and adapt it to your device.

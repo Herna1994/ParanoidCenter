@@ -1,0 +1,18 @@
+# Let's add the needed commits for the device.
+# They have to be in order if they are from the same repo, in case they require others to be applied first.
+# We will first add the vendor/pa commit if required, either way add the remaining ones.
+# If possible starting after vendor/pa one, categorize them by alphabetical order of repositories name.
+
+# vendor/pa
+5619 # Sync marlin dependencies
+5629 # Add permissions to whitelist
+
+# build
+5443 # create dt.img task
+5444 # Add support for device tree in boot.img
+5623 # Fix build for for devices without a dedicated recovery partition
+
+# frameworks/native
+5641 # Remove a breaking dependency
+5642 # Remove a breaking dependency
+5643 # Use local header files from aosp display hal

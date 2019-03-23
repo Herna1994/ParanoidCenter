@@ -1,0 +1,16 @@
+# Let's add the needed commits for the device.
+# They have to be in order if they are from the same repo, in case they require others to be applied first.
+# We will first add the vendor/pa commit if required, either way add the remaining ones.
+# If possible starting after vendor/pa one, categorize them by alphabetical order of repositories name.
+
+# vendor/pa
+5345 # Sync oneplus6 dependencies
+
+# frameworks/base
+5351 # WallpaperManagerService: Fix theme switching
+
+# device/qcom/common
+5574 # common: init: remove utils.h import.
+
+# vendor/codeaurora/commonsys/telephony 
+5306 # [DNM] telephony: HACK

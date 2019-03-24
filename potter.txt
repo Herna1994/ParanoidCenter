@@ -1,0 +1,30 @@
+# Let's add the needed commits for the device.
+# They have to be in order if they are from the same repo, in case they require others to be applied first.
+# We will first add the vendor/pa commit if required, either way add the remaining ones.
+# If possible starting after vendor/pa one, categorize them by alphabetical order of repositories name.
+
+# vendor/pa
+5442 # Add Potter and sync deps.
+
+# build
+5444 # Add support for device tree in boot.img
+5443 # create dt.img task
+
+# frameworks/base
+5445 # PowerManager: Add proximity check on wake
+5446 # Dispatch keys to a device specific key handler
+5447 # policy: Use PathClassLoader for loading the keyhandler
+5448 # DeviceKeyHandler: Fix suspend gesture not working
+
+# hardware/qcom/display
+
+5432 # Fix Night Light
+5391 # Don't build lights module if vendor supplies it
+
+# system/core
+
+5254 # mkbootimg: add support for --dt
+
+# vendor/codeaurora/commonsys/telephony
+5306 # [DNM] telephony: HACK
+

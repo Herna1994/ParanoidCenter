@@ -4,7 +4,7 @@
 # If possible starting after vendor/pa one, categorize them by alphabetical order of repositories name.
 
 # vendor/pa
-5442 # Add Xiaomi Mi A1 (tissot)
+5431 # Add Xiaomi Mi A1 (tissot) and sync dependencies
 
 # hardware/qcom/display
 5432 # Fix Night Light

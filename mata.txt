@@ -14,3 +14,4 @@
 
 # vendor/pa
 5343 # vendor: add mata
+5559 # pa: Skip boot jars check on user builds.

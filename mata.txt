@@ -1,0 +1,17 @@
+# Let's add the needed commits for the device.
+# They have to be in order if they are from the same repo, in case they require others to be applied first.
+# We will first add the vendor/pa commit if required, either way add the remaining ones.
+# If possible starting after vendor/pa one, categorize them by alphabetical order of repositories name.
+
+# hardware/qcom/audio
+5477 # audio_extn: Add missing pthread.h includes
+
+# hardware/qcom/display
+5475 # sdm: add board flag for panel shift
+
+# vendor/codeaurora/commonsys/telephony
+5306 # [DNM] telephony: HACK
+
+# vendor/pa
+5343 # vendor: add mata
+5559 # pa: Skip boot jars check on user builds.
